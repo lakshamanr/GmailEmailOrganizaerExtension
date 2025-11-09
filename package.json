@@ -1,0 +1,12 @@
+{
+  "name": "email-categorizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node tests/categorizer.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
