@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Smart Categorizer",
+  "version": "1.0",
+  "description": "Automatically categorizes emails in Gmail.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*"
+      ],
+      "js": [
+        "categorizer.js",
+        "content.js"
+      ]
+    }
+  ]
+}

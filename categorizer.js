@@ -16,7 +16,6 @@ const keywords = {
 };
 
 function categorizeEmail(email) {
-    const from = email.from.toLowerCase();
     const subject = email.subject.toLowerCase();
     const body = email.body.toLowerCase();
 
@@ -42,8 +41,3 @@ function categorizeEmail(email) {
 
     return categories.UNCATEGORIZED;
 }
-
-module.exports = {
-    categories,
-    categorizeEmail,
-};
